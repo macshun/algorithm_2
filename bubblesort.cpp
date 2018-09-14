@@ -1,9 +1,9 @@
 /*
-	Name:  Ã°ÅÝÅÅÐò 
+	Name:  脙掳脜脻脜脜脨貌 
 	Copyright: 
 	Author: mac
 	Date: 10/09/18 10:29
-	Description: 
+	Description: 两两比较->极数沉底。O(n^2)稳定
 */
 #include <iostream>
 #include <cstdio>
@@ -12,11 +12,11 @@ int main()
 {
 	int num[5] = {3,4,2,1,5};
 	for(int i = 1;i < 5; i++){
-		for(int j = 0;j < 5 - i; j++){		
-			if(num[j-1] > num[j]){
-				int temp = num[j-1];
-				num[j-1] = num[j];
-				num[j] = temp;
+		for(int j = 0;j < 5 - i; j++){
+			if(num[j] > num[j+1]){
+				int temp = num[j];
+				num[j] = num[j+1];
+				num[j+1] = temp;
 			}
 		}
 	}
@@ -25,4 +25,3 @@ int main()
 	}
 	return 0;
 }
-
