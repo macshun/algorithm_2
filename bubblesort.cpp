@@ -1,9 +1,9 @@
 /*
-	Name:  鑴欐幊鑴滆劵鑴滆劀鑴ㄨ矊 
+	Name:  脙掳脜脻脜脜脨貌 
 	Copyright: 
 	Author: mac
 	Date: 10/09/18 10:29
-	Description: 涓や袱姣旇緝->鏋佹暟娌夊簳銆侽(n^2)绋冲畾
+	Description: 两两比较->极数沉底。O(n^2)稳定
 */
 #include <iostream>
 #include <cstdio>
@@ -25,3 +25,4 @@ int main()
 	}
 	return 0;
 }
+
