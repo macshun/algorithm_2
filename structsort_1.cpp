@@ -29,7 +29,7 @@ int main()
 	stu[0].rn = 1;
 	
 /*****************
-保留了排名
+ratained the ranking
 ******************/ 
 
 //	for(int i = 0; i < 5; i++){
@@ -41,7 +41,7 @@ int main()
 //	}
 
 /***********************
-边排边输出 
+don't need ratain the ranking
 ***********************/ 
 	int r = 1;
 	for(int i = 0; i < 5; i++){
