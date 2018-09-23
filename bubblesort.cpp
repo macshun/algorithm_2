@@ -12,7 +12,11 @@ int main()
 {
 	int num[5] = {3,4,2,1,5};
 	for(int i = 1;i < 5; i++){
+<<<<<<< HEAD
 		for(int j = 0;j < 5 - i; j++){
+=======
+		for(int j = 0;j < 5 - i; j++){		
+>>>>>>> Create 1
 			if(num[j] > num[j+1]){
 				int temp = num[j];
 				num[j] = num[j+1];
