@@ -9,7 +9,6 @@
 #include <cstring>
 #include <map>
 #include <cctype>
-using namespace std;
 const int max_n = 100010;
 char str[max_n];
 map<char,bool> mip;

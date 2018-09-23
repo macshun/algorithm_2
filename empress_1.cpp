@@ -16,11 +16,11 @@ int p[max_n];
 int n;
 void generateP(int index){
 	if(index == n + 1){
-//		for(int i = 1; i <= n; i++){
-//			printf("%d",p[i]);
-//		}
+		for(int i = 1; i <= n; i++){
+			printf("%d",p[i]);
+		}
 		count++;
-//		printf("\n");
+		printf("\n");
 		return;
 	}
 	for(int x = 1; x <= n; x++){
@@ -43,7 +43,7 @@ void generateP(int index){
 	}
 }
 int main(){
-	n = 9;
+	n = 4;
 	generateP(1);
 	printf("%d",count);
 	return 0;
